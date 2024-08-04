@@ -52,6 +52,7 @@ public class Product : PK
 
     #region Methods
 
+    // Summary configurado na classe pai (PK)
     public override void ObjectActivated(bool option = true)
         => ProductStatus = option ? EStatus.Active : EStatus.Inactive;
 

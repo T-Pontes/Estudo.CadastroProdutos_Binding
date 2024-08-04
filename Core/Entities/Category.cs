@@ -12,7 +12,7 @@ public class Category : PK
     public Category() { }
 
     /// <summary> Construtor com parâmetros. </summary>
-    /// /// <param name="id"> Parametro opcional com valor padrão igual a "-1". </param>
+    /// <param name="id"> Parametro opcional com valor padrão igual a "-1". </param>
     /// <param name="categoryName"> Parâmetro obrigatório sem valor padrão. </param>
     /// <param name="categoryDescription"> Parâmetro opcional com valor padrão "null". </param>
     /// <param name="categoryStatus"> Parâmetro opcinal com valor padrão "Ativo". </param>
@@ -42,7 +42,8 @@ public class Category : PK
     #endregion
 
     #region Methods
-        
+
+    // Summary configurado na classe pai (PK)
     public override void ObjectActivated(bool option = true)
         => CategoryStatus = option ? EStatus.Active : EStatus.Inactive;
     #endregion
