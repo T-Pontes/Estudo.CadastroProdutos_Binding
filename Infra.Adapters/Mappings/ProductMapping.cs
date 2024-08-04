@@ -4,6 +4,9 @@ using Infra.Adapters.DTOs;
 
 namespace Infra.Adapters.Mappings;
 
+/// <summary>
+/// Classe responsável por prover o mapeamento da entitidade produto para seu respectivo DTO e vice-versa 
+/// </summary>
 public class ProductMapping
 {
     /// <summary> Método de mapeamento de "Entidades" para "DTOs". </summary>
